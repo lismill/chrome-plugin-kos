@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    color: #343434;
+    font-family: 'PingFang SC','Microsoft YaHei','SimHei','Arial','SimSun';
+}
+input:focus {
+    outline:none;
+}
+.m-b20 {
+    margin-bottom: 20px;
+}
+.p-20 {
+    padding: 20px;
+}
+.popup {
+    width: 460px;
+    min-height: 560px;
+    border: none;
+    background: url("../images//theme/theme-1.png") center center;
+    background-size: cover;
+    background-color: #eeeeee;
+}
+.popup .theme {
+    text-align: right;
+    color: #ffffff;
+    cursor: pointer;
+}
+.popup .theme:hover {
+    text-decoration: underline;
+}
+.popup .search {
+    position: relative;
+}
+.popup .search .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.popup .search .icon img {
+    border-radius: 6px;
+}
+.popup .search input {
+    padding-left: 50px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+.popup .search input::placeholder {
+    color: #eeeeee;
+}
+
+.popup .tools {
+    color: #ffffff;
+    text-shadow: 0 0 9px rgba(0, 0, 0, .1);
+}
+.popup .tools header {
+    margin: 15px 14.5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.popup .tools footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.popup .tools footer div {
+    user-select: none;
+    width: 55px;
+    height: 55px;
+    margin: 0 14.5px 5px 14.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .1);
+}
+.popup .tools footer div:hover {
+    border: 1px solid #e74e3d;
+    cursor: pointer;
+}
+.popup .tools footer div img {
+    margin-top: 13.5px;
+    width: 50%;
+    height: 50%;
+}
