@@ -19,6 +19,7 @@ window.onload = () => {
             { name: 'develop-github', url: 'https://github.com/search?q=' },
             { name: 'develop-MDN', url: 'https://developer.mozilla.org/zh-CN/search?q=' },
             { name: 'develop-juejin', url: 'https://juejin.cn/search?query=' },
+            { name: 'develop-tinypng', url: 'https://tinypng.com' },
             { name: 'develop-ps', url: 'https://www.uupoop.com/#/old' },
             { name: 'develop-stackoverflow', url: 'https://stackoverflow.com/search?q=' },
         ],
