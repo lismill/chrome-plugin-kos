@@ -1,5 +1,5 @@
 # KOS
-Keyword operation summary.
+this is a chrome plugin for keyword operation summary
 
 ![](https://z3.ax1x.com/2021/10/29/5O4vrt.png)
 
