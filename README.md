@@ -1,7 +1,7 @@
 # KOS
 Keyword operation summary.
 
-![](./images/review.png)
+![](https://z3.ax1x.com/2021/10/29/5O4vrt.png)
 
 ## Install
 ```
